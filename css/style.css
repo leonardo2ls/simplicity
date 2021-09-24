@@ -110,7 +110,9 @@ nav a:hover, nav a:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
 
 }
 
@@ -124,6 +126,7 @@ nav a:hover, nav a:focus{
     font-size: clamp(1.6rem,2vw,4rem);
     font-weight: bold;
     animation: fadeIn 1.5s 1s backwards; /* backwards segura animação  */
+
     
 }
 
